@@ -24,7 +24,7 @@ def handle_image(file, original_file_name, targetDirectory):
 
 def main():
     # Öffnet einen Dialog zur Auswahl des Quell Ordners
-    directory = easygui.diropenbox(title="Wählen Sie einen den Quell-Ordner mit den JPG Dateien.")
+    directory = easygui.diropenbox(title="Wählen Sie den Quell-Ordner mit den JPG Dateien.")
     # Öffnet einen Dialog zur Auswahl des Ziel Ordners
     targetDirectory= easygui.diropenbox(title="Wählen Sie einen leeren Ziel-Ordner aus, wo die sortierten JPG Dateien gespeichert werden.")
     
